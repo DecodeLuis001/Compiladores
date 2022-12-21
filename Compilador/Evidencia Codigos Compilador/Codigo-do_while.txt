@@ -1,0 +1,345 @@
+Last login: Fri Jun  4 12:09:20 on ttys000
+luisnunez.@MacBook-Air-de-Luis ~ % cd ejercicios
+luisnunez.@MacBook-Air-de-Luis ejercicios % cd compialdor
+cd: no such file or directory: compialdor
+luisnunez.@MacBook-Air-de-Luis ejercicios % cd compilador
+luisnunez.@MacBook-Air-de-Luis compilador % ./ccompiler do_while.c
+Analizador Sintactico de ANSI C 2021 version 0.6
+
+
+
+type_specifier: VOID
+declaration_specifiers: 
+direct_declarator: IDENTIFIER<printf>
+direct_declarator: direct_declarator '(' ')'
+declarator: direct_declarator
+init_declarator: declaratorinit_declarator_list: init_declaratordeclaration: declaration_specifiers init_declarator_list ';'
+Declaring Variable: 
+printf
+external_declaration: declaration
+translation_unit: external_declaration
+type_specifier: VOID
+declaration_specifiers: 
+direct_declarator: IDENTIFIER<scanf>
+direct_declarator: direct_declarator '(' ')'
+declarator: direct_declarator
+init_declarator: declaratorinit_declarator_list: init_declaratordeclaration: declaration_specifiers init_declarator_list ';'
+Declaring Variable: 
+scanf
+external_declaration: declaration
+translation_unit: external_declaration
+type_specifier: INT
+declaration_specifiers: 
+direct_declarator: IDENTIFIER<main>
+direct_declarator: direct_declarator '(' ')'
+declarator: direct_declarator
+type_specifier: INT
+declaration_specifiers: 
+direct_declarator: IDENTIFIER<x>
+declarator: direct_declarator
+init_declarator: declaratorinit_declarator_list: init_declaratordeclaration: declaration_specifiers init_declarator_list ';'
+Declaring Variable: 
+x
+declaration_list: declaration
+type_specifier: INT
+declaration_specifiers: 
+direct_declarator: IDENTIFIER<suma>
+declarator: direct_declarator
+primary_expression : CONSTANT
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+initializer: assignment_expression	
+init_declarator: declarator '=' initializerinit_declarator_list: init_declaratordeclaration: declaration_specifiers init_declarator_list ';'
+Declaring Variable: 
+suma
+declaration_list: declaration_list declaration
+primary_expression: IDENTIFIER
+<printf>
+postfix_expression: primary_expression
+Start of  the string
+primary_expression: STRING_LITERAL
+<"Ingrese un numero(si desea salir ingrese 0):
+">
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+argument_expression_list: assignment_expression
+postfix_expression: postfix_expression '(' argument_expression_list ')'
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+expression_statement: expression ';'
+statement: expression_statement
+statement_list: statement
+primary_expression: IDENTIFIER
+<scanf>
+postfix_expression: primary_expression
+Start of  the string
+primary_expression: STRING_LITERAL
+<"%d">
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+argument_expression_list: assignment_expression
+unary_operator: '&'
+primary_expression: IDENTIFIER
+<x>
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+unary_expression: unary_operator cast_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+argument_expression_list: argument_expression_list ',' assignment_expression
+postfix_expression: postfix_expression '(' argument_expression_list ')'
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+expression_statement: expression ';'
+statement: expression_statement
+statement_list: statement_list statement
+primary_expression: IDENTIFIER
+<suma>
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+assignment_operator: ADD_ASSIGN
+primary_expression: IDENTIFIER
+<x>
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+assignment_expression: unary_expression assignment_operator assignment_expression
+expression: assignment_expression
+expression_statement: expression ';'
+statement: expression_statement
+statement_list: statement_list statement
+compound_statement: '{' statement_list '}'
+statement: compound_statement
+primary_expression: IDENTIFIER
+<x>
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+primary_expression : CONSTANT
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: equality_expression NE_OP relational_expression
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+iteration_statement: DO statement WHILE '(' expression ')' ';'
+statement: iteration_statement
+statement_list: statement
+primary_expression: IDENTIFIER
+<printf>
+postfix_expression: primary_expression
+Start of  the string
+primary_expression: STRING_LITERAL
+<"
+La suma es: %d
+">
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+argument_expression_list: assignment_expression
+primary_expression: IDENTIFIER
+<suma>
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+argument_expression_list: argument_expression_list ',' assignment_expression
+postfix_expression: postfix_expression '(' argument_expression_list ')'
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+expression_statement: expression ';'
+statement: expression_statement
+statement_list: statement_list statement
+primary_expression : CONSTANT
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+jump_statement: RETURN expression ';'
+statement: jump_statement
+statement_list: statement_list statement
+compound_statement: '{' declaration_list statement_list '}'
+function_definition : declaration_specifiers declarator compound_statement
+external_declaration: function_definition
+translation_unit: external_declaration
+
+Tabla de variables globales
+Name
+printf FUNC
+scanf FUNC
+main FUNC
+
+Codigo intermedio: 
+
+0: PROC main
+1: suma = 0
+2: PARAM @1
+3: @2 = CALL printf, 1
+4: @4 = &x
+5: PARAM @4
+6: PARAM @3
+7: @5 = CALL scanf, 2
+8: @6 = suma + x
+9: suma = @6
+10: IF x != 0 GOTO 2
+11: GOTO 12
+12: PARAM suma
+13: PARAM @8
+14: @9 = CALL printf, 2
+15: RETURN 0
+16: ENDPROC main
+
+Unknown IR instruction
+luisnunez.@MacBook-Air-de-Luis compilador % 

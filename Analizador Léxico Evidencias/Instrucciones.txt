@@ -1,0 +1,15 @@
+Evidencia 1: va a escribir los tokens que va encontrnado, se arrojaran tokens numericos principalmente.
+	Comentar ECHO en la parte de void count(), para evitar que la consola escriba todos los carcateres, solo se arrojaran tokens numericos.
+Evidencia 2: Para desplegar el nombre de los tokens agregar la funcion char *stoken[] = {}
+	Modificacion en int main()
+	Si tok >= Auto
+	else: sirve cuando el token no tiene nombre
+	-->Hasta este punto el analizador no soporta caracteres como: # se debe comentar.
+Evidencia 3: Encontrar el caracter que corresponde, se cambia a %c en el print en el else.
+	La primer salida es sin el cambio a %c
+	La segunda salida es con el cambio a %c
+Evidencia 4: Para evitar poner: < al momento de compilar.
+	Se agregan los parametros a la funcion int main.
+	arg >= 1
+	se le agrega la opcion de copyright.
+Evidencia 5: evitar que los archivos .c requieran librerias, studio y stdlib

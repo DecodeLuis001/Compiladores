@@ -1,0 +1,84 @@
+Last login: Sun May  2 13:30:58 on ttys000
+luisnunez.@MacBook-Air-de-Luis ~ % cd ejercicios            
+luisnunez.@MacBook-Air-de-Luis ejercicios % cd analizador\ sintactico
+luisnunez.@MacBook-Air-de-Luis analizador sintactico % open codigo.c     
+luisnunez.@MacBook-Air-de-Luis analizador sintactico % ./parser codigo.c 
+Analizador Sintactico de ANSI C 2021 version 0.5
+
+type_specifier: INT
+declaration_specifiers: 
+direct_declarator: IDENTIFIER
+direct_declarator: direct_declarator '(' ')'
+declarator: direct_declarator
+init_declarator: declaratorinit_declarator_list: init_declaratordeclaration: declaration_specifiers init_declarator_list ';'
+external_declaration: declaration
+translation_unit: external_declaration
+type_specifier: INT
+declaration_specifiers: 
+direct_declarator: IDENTIFIER
+direct_declarator: direct_declarator '(' ')'
+declarator: direct_declarator
+primary_expression: IDENTIFIER
+postfix_expression: primary_expression
+Start of  the string
+primary_expression: STRING_LITERAL
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+argument_expression_list: assignment_expression
+postfix_expression: postfix_expression '(' argument_expression_list ')'
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+expression_statement: expression ';'
+statement: expression_statement
+statement_list: statement
+primary_expression: CONSTANT
+postfix_expression: primary_expression
+unary_expression: postfix_expression
+cast_expression: unary_expression
+multiplicative_expression: cast_expression
+additive_expression: multiplicative_expression	
+shift_expression: additive_expression
+relational_expression: shift_expression
+equality_expression: relational_expression	
+and_expression: equality_expression
+exclusive_or_expression: and_expression
+inclusive_or_expression: exclusive_or_expression
+logical_and_expression: inclusive_or_expression
+logical_or_expression: logical_and_expression
+conditional_expression: logical_or_expression
+assignment_expression: conditional_expression
+expression: assignment_expression
+jump_statement: RETURN expression ';'
+statement: jump_statement
+statement_list: statement_list statement
+compound_statement: '{' statement_list '}'
+function_definition: declaration_specifiers declarator compound_statement
+external_declaration: function_definition
+translation_unit: external_declaration
+luisnunez.@MacBook-Air-de-Luis analizador sintactico % 
